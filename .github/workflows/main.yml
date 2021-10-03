@@ -1,4 +1,5 @@
-name: Build and Deploy to S3
+name: Upload Website
+
 on:
   push:
     branches:
@@ -19,4 +20,4 @@ jobs:
         aws-region: eu-west-3
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./TrueNFTs/Public/ s3://S3_BUCKET --delete
+      run: aws s3 sync ./TrueNFTs/Public s3://www.truenfts.com --delete
