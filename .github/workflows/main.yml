@@ -20,4 +20,8 @@ jobs:
         aws-region: eu-west-3
 
     - name: Deploy static site to S3 bucket
+<<<<<<< HEAD:.github/workflows/main.yml
       run: aws s3 sync ./TrueNFTs/Public s3://www.truenfts.com --delete
+=======
+      run: aws s3 sync ./TrueNFTs/Public/ s3://www.truenfts.io --delete
+>>>>>>> 473f5fa3f5e4b02623ad0684764033a998c20bdf:.github/workflows/startup.yml
