@@ -5484,6 +5484,11 @@ body.minimal {
     min-height: 84vh
 }
 
+.homePageTitleSecondary {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem
+}
+
 @media (max-width:768px) {
     .section-container:first-of-type {
         padding-top: 30px
@@ -5707,6 +5712,9 @@ textarea {
     }
     .homePageTitle {
       font-size: 4rem
+    }
+    .homePageTitleSecondary {
+      font-size: 1.75rem
     }
 }
 
