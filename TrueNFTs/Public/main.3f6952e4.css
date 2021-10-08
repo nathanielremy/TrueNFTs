@@ -5703,7 +5703,10 @@ textarea {
 
 @media (max-width:992px) {
     .hoverOffForMobile img {
-        filter: none
+      filter: none
+    }
+    .homePageTitle {
+      font-size: 4rem
     }
 }
 
