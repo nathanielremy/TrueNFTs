@@ -5701,11 +5701,11 @@ textarea {
     filter: none
 }
 
-/*@media (max-width:992px) {
-    .black-image-project-hover img {
+@media (max-width:992px) {
+    .hoverOffForMobile img {
         filter: none
     }
-}*/
+}
 
 @media (max-width:768px) {
     .projects-carousel .carousel-control {
@@ -5921,6 +5921,14 @@ textarea {
 .list-icons li {
     float: left;
     margin-right: 5px
+}
+
+.contactli  {
+  padding-left: 20px
+}
+
+.missionImage {
+  padding-top: 15px
 }
 
 /*# sourceMappingURL=main.70a66962.map*/
