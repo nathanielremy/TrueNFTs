@@ -5486,7 +5486,7 @@ body.minimal {
 
 .homePageTitleSecondary {
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 2.5rem
+  font-size: 2rem
 }
 
 @media (max-width:768px) {
@@ -5714,7 +5714,7 @@ textarea {
       font-size: 4rem
     }
     .homePageTitleSecondary {
-      font-size: 1.75rem
+      font-size: 1.5rem
     }
 }
 
