@@ -896,6 +896,11 @@ pre code {
     overflow-y: scroll
 }
 
+.dropHeaderImage-container{
+  display: flex;
+  justify-content: center;
+}
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -906,7 +911,7 @@ pre code {
 .container:after,
 .container:before {
     content: " ";
-    display: table
+    /*display: table*/
 }
 
 .container:after {
