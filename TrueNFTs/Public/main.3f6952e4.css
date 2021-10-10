@@ -896,11 +896,6 @@ pre code {
     overflow-y: scroll
 }
 
-.dropHeaderImage-container{
-  display: flex;
-  justify-content: center;
-}
-
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -5677,7 +5672,9 @@ textarea {
     padding: 2rem 5rem;
     position: relative;
     width: 80%;
-    margin: -10em auto 20px
+    margin: -10em auto 20px;
+    border: 0.5px solid rgba(192, 192, 192, 0.5);
+    border-radius: 5px
 }
 
 @media (max-width:992px) {
