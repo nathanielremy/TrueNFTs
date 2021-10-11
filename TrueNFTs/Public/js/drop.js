@@ -22,5 +22,4 @@ lightBox.addEventListener('click', e => {
     return;
   };
   lightBox.classList.remove('active');
-  lightBox.removeC
 });
