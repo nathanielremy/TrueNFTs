@@ -28,6 +28,12 @@ import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.1.2/
   function submitForm(e) {
     e.preventDefault();
 
+    let captcha = document.querySelector(".captcha");
+
+    if (!captcha.checked) {
+      emailNotSent(); return;
+    }
+
     let email = document.querySelector(".emailForm").value;
     let subject = document.querySelector(".subjectForm").value;
     let message = document.querySelector(".messageForm").value;
@@ -57,6 +63,8 @@ import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.1.2/
   }
 
   function emailNotSent() {
+    const emailFailAlert = document.querySelector(".emailFailAlert");
+
     console.log("Please enter all details");
-    document.querySelector(".contactForm").reset();
+    emailFailAlert.classList.add('active');
   }

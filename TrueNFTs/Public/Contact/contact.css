@@ -1,0 +1,24 @@
+.alertContainer {
+}
+
+.sendContainer {
+  position: absolute;
+  left: 15;
+  z-index: 1
+}
+
+.emailFailAlert {
+  background-color: red;
+  border-color: red;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 19px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  display: none;
+}
+
+.emailFailAlert.active {
+  display: flex;
+  z-index: 10000000;
+}
