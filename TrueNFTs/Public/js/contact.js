@@ -27,6 +27,7 @@ import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.1.2/
   document.querySelector('.contactForm').addEventListener('submit', submitForm);
   function submitForm(e) {
     e.preventDefault();
+    document.querySelector('.sendButton').disabled = true;
 
     let captcha = document.querySelector(".captcha");
 
@@ -55,16 +56,40 @@ import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.1.2/
     const values = {email: emailAdress, subject: subject,
     message : message};
     set(ref(database, 'emails/' + Date.now() + "/"), values);
+    emailSuccessfullySent();
   };
 
   function emailSuccessfullySent() {
-    console.log("Email Sent!!");
     document.querySelector(".contactForm").reset();
+    const emailSuccessAlert = document.querySelector(".emailSuccessAlert");
+
+    emailSuccessAlert.classList.add('active');
+    var counter = 0;
+    var interval = setInterval(function() {
+      counter++;
+    // Display 'counter' wherever you want to display it.
+      if (counter == 3) {
+        // Display a login box
+        clearInterval(interval);
+        emailSuccessAlert.classList.remove('active');
+        document.querySelector('.sendButton').disabled = false;
+      }
+    }, 1000);
   }
 
   function emailNotSent() {
     const emailFailAlert = document.querySelector(".emailFailAlert");
 
-    console.log("Please enter all details");
     emailFailAlert.classList.add('active');
+    var counter = 0;
+    var interval = setInterval(function() {
+      counter++;
+    // Display 'counter' wherever you want to display it.
+      if (counter == 3) {
+        // Display a login box
+        clearInterval(interval);
+        emailFailAlert.classList.remove('active');
+        document.querySelector('.sendButton').disabled = false;
+      }
+    }, 1000);
   }
