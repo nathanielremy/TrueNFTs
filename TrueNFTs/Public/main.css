@@ -5485,6 +5485,10 @@ body.minimal {
     min-height: 84vh
 }
 
+.homePageTitle {
+  text-shadow: 2px, 2px, 4px, #000000;
+}
+
 .homePageTitleSecondary {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 2rem
