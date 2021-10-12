@@ -23,7 +23,6 @@ import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.1.2/
   const analytics = getAnalytics(app);
 
   const database = getDatabase();
-  console.log(database);
 
   document.querySelector('.contactForm').addEventListener('submit', submitForm);
   function submitForm(e) {
