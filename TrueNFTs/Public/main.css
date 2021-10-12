@@ -227,8 +227,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         background: transparent!important;
         color: #000!important;
         box-shadow: none!important;
@@ -5486,8 +5486,8 @@ body.minimal {
 }
 
 .homePageTitleSecondary {
-  background-color: rgba(0, 0, 0, 0.5);
-  font-size: 2rem
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem
 }
 
 @media (max-width:768px) {
@@ -5711,13 +5711,13 @@ textarea {
 
 @media (max-width:992px) {
     .hoverOffForMobile img {
-      filter: none
+        filter: none
     }
     .homePageTitle {
-      font-size: 3.5rem
+        font-size: 3.5rem
     }
     .homePageTitleSecondary {
-      font-size: 1.5rem
+        font-size: 1.5rem
     }
 }
 
@@ -5731,19 +5731,20 @@ textarea {
 }
 
 .PCVideoContainer {
-  position: relative;
-  width: 100%;
-  height: 60%
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
 
 .PCVideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  background-color: black;
-  border: 0
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 0
 }
 
 .carousel-control {
@@ -5953,12 +5954,13 @@ textarea {
     margin-right: 5px
 }
 
-.contactli  {
-  padding-left: 20px
+.contactli {
+    padding-left: 20px
 }
 
 .missionImage {
-  padding-top: 15px
+    padding-top: 15px
 }
+
 
 /*# sourceMappingURL=main.70a66962.map*/
