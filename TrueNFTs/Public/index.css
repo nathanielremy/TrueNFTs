@@ -113,8 +113,8 @@
   background-color: rgba(26, 26, 26, 1);
   color: white;
   border-radius: 5px;
-  width: 400px;
-  height: 30%;
+  width: min(400px, 85%);
+  height: min(30%, 300px); ;
   overflow: auto;
 }
 
@@ -126,12 +126,12 @@
 
 .giveAwayFormTitle {
   color: white;
-  font-size: 25px;
+  font-size: min(25px, 5vw);
 }
 
 .giveAwayFormMessage {
   color: rgb(128, 128, 128);
-  font-size: 12px;
+  font-size: min(12px, 3vw);
 }
 
 .emailForm {
@@ -140,7 +140,7 @@
 }
 
 .registerButton {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 25%;
   color: black
 }
