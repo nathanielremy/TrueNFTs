@@ -1,13 +1,14 @@
 .homePageBody {
-  background-color: black
+  background-color: white
 }
 
 .hero-text-wrapper {
-  margin-top: 15%
+  margin-top: 15%;
+  height: 500px;
 }
 
 .homePageTitle {
-  margin-top: -5%;
+  margin-top: min(-5%, -10px);
   margin-left: 20px;
   color: rgba(255, 255, 255, 0.66);
   min-width: 80%;
@@ -43,9 +44,10 @@
     -webkit-filter: contrast(175%) grayscale(66%);
     filter: contrast(175%) grayscale(66%);
     object-fit: contain;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    position: relative;
 }
 
 .sectionSeperatorButton {
