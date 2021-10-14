@@ -1,39 +1,47 @@
 .homePageBody {
-  background-color: white !important;
+  background-color: black
 }
 
-.hero-full-wrapper {
-  margin-top: 10%;
-  padding-left: 10%;
-  height: 100%;
+.hero-text-wrapper {
 }
 
-.homePageTitle{
-  font-size: 5rem;
+.homePageTitle {
+  margin-top: 0px;
+  margin-left: 25px;
   color: rgba(255, 255, 255, 0.66);
-  text-align: left
+  max-width: 80%;
 }
 
 .homePageTitleSecondary {
-  margin-bottom: 0;
-    font-size: 2rem;
     color: rgba(255, 255, 255, 0.66);
+    font-size: 2rem;
+    margin-left: 25px;
+    max-width: 80%;
+}
+
+@media (max-width:992px) {
+    .homePageTitle {
+        font-size: 6rem
+    }
+    .homePageTitleSecondary {
+        font-size: 2rem
+    }
 }
 
 @media (max-width:768px) {
     .homePageTitle {
-        font-size: 2.5rem;
+        font-size: 5rem
     }
     .homePageTitleSecondary {
-        font-size: 1.15rem
+        font-size: 2.25rem
     }
 }
 
 .background-image-container {
-    -webkit-filter: contrast(175%) grayscale(25%);
-    filter: contrast(175%) grayscale(25%);
+    -webkit-filter: contrast(175%) grayscale(66%);
+    filter: contrast(175%) grayscale(66%);
     object-fit: contain;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -45,18 +53,24 @@
 .sectionSeperator {
   cursor: pointer;
   text-align: center;
+  color: white;
   font-size: 2.25vw;
-  padding-top: 0px;
-  background-color: white;
+  padding-top: 20px;
+  background-color: black;
   height: 75px;
   width: 100%;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
 }
 
-/*@media (max-width:768px) {
+@media (max-width:768px) {
     .section-container:first-of-type {
         padding-top: 30px
+    }
+
+    .background-image-container {
+      zoom: 45%;
+      padding-left: 45px;
     }
 
     .PCVideoContainer {
@@ -65,10 +79,10 @@
     }
 
     .sectionSeperator {
-      padding-top: 5px;
+      padding-top: 4px;
       font-size: 4.5vw
     }
-}*/
+}
 
 .PCVideoContainer {
   background-size: cover;
@@ -78,8 +92,8 @@
   margin-top: 15px;
   padding-top: 0px;
   width: 100%;
-  height: 325px;
-  background-color: white
+  height: 300px;
+  background-color: black
 }
 
 .giveAwayFormContainer {
@@ -88,9 +102,7 @@
   color: white;
   border-radius: 5px;
   width: 400px;
-  max-width: 80%;
-  height: 250px;
-  max-height: 80%;
+  height: 30%;
   overflow: auto;
 }
 
@@ -116,7 +128,7 @@
 }
 
 .registerButton {
-  margin-top: 8px;
+  margin-top: 20px;
   width: 25%;
   color: black
 }
