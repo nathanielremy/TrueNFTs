@@ -5445,7 +5445,7 @@ body.minimal {
 
 .hero-full-container .hero-full-wrapper .text-content {
     vertical-align: middle;
-    display: table-cell
+    /*display: table-cell*/  /*Could be cool*/
 }
 
 .white-text-container h1,
