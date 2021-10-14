@@ -3,23 +3,24 @@
 }
 
 .hero-text-wrapper {
-  margin-top: 15%;
+  margin-top: min(20%, 150px);
   height: 500px;
 }
 
 .homePageTitle {
-  margin-top: min(-5%, -10px);
   margin-left: 20px;
   color: rgba(255, 255, 255, 0.66);
   min-width: 80%;
-  font-size: max(4em);
+  font-size: 5vw;
+  -webkit-text-stroke: 1px black;
 }
 
 .homePageTitleSecondary {
     color: rgba(255, 255, 255, 0.66);
-    font-size: 2rem;
+    font-size: min(3vw, 20px);
     margin-left: 25px;
     max-width: 80%;
+    -webkit-text-stroke: 0.5px black;
 }
 
 /*@media (max-width:992px) {
@@ -40,26 +41,27 @@
     }
 }*/
 
-.background-image-container {
-    -webkit-filter: contrast(175%) grayscale(66%);
-    filter: contrast(175%) grayscale(66%);
-    object-fit: contain;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    position: relative;
+.container {
+  align-items: center;
+  background-image: url("./assets/images/metav.jpg");
+  -webkit-filter: contrast(200%) grayscale(66%);
+  filter: contrast(200%) grayscale(66%);
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
 }
 
 .sectionSeperatorButton {
   text-decoration: none !important;
+  padding-top: 500px;
 }
 
 .sectionSeperator {
   cursor: pointer;
   text-align: center;
   color: white;
-  font-size: 2.25vw;
-  padding-top: 20px;
   background-color: black;
   height: 75px;
   width: 100%;
@@ -67,13 +69,13 @@
   border-bottom: 5px solid white;
 }
 
-@media (max-width:768px) {
+/*@media (max-width:768px) {
     .section-container:first-of-type {
         padding-top: 30px
     }
 
     .background-image-container {
-      zoom: 45%;
+      /* zoom: 45%; */
       padding-left: 45px;
     }
 
@@ -86,7 +88,7 @@
       padding-top: 4px;
       font-size: 4.5vw
     }
-}
+}*/
 
 .PCVideoContainer {
   background-size: cover;
