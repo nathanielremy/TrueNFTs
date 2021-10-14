@@ -3,13 +3,15 @@
 }
 
 .hero-text-wrapper {
+  margin-top: 15%
 }
 
 .homePageTitle {
-  margin-top: 0px;
-  margin-left: 25px;
+  margin-top: -5%;
+  margin-left: 20px;
   color: rgba(255, 255, 255, 0.66);
-  max-width: 80%;
+  min-width: 80%;
+  font-size: max(4em);
 }
 
 .homePageTitleSecondary {
@@ -19,7 +21,7 @@
     max-width: 80%;
 }
 
-@media (max-width:992px) {
+/*@media (max-width:992px) {
     .homePageTitle {
         font-size: 6rem
     }
@@ -35,7 +37,7 @@
     .homePageTitleSecondary {
         font-size: 2.25rem
     }
-}
+}*/
 
 .background-image-container {
     -webkit-filter: contrast(175%) grayscale(66%);
