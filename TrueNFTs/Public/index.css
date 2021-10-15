@@ -9,14 +9,14 @@
 
 .homePageTitle {
   margin-left: 20px;
-  color: rgba(255, 255, 255, 0.66);
+  color: rgba(255, 255, 255, 0.8);
   min-width: 80%;
   font-size: min(6.25vw, 40px);
   -webkit-text-stroke: 1px black;
 }
 
 .homePageTitleSecondary {
-    color: rgba(255, 255, 255, 0.66);
+    color: rgba(255, 255, 255, 0.8);
     font-size: min(5.5vw, 20px);
     margin-left: 25px;
     max-width: 80%;
@@ -44,7 +44,7 @@
 .heroContainer {
   align-items: center;
   background-image: url("./assets/images/metav.jpg");
-  -webkit-filter: contrast(200%) grayscale(100%);
+  -webkit-filter: contrast(200%) grayscale(85%);
   filter: contrast(200%) grayscale(85%);
   object-fit: contain;
   background-size: cover;
@@ -141,8 +141,21 @@
 
 .registerButton {
   margin-top: auto;
+  background-color: white;
   width: 50%;
   color: black;
+  border: 1px solid transparent;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 4px 9px;
+  border-radius: 5px;
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none */
 }
 
 .giveAwayLB {
