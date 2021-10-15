@@ -1,5 +1,5 @@
 .homePageBody {
-  background-color: white
+  background-color: black
 }
 
 .hero-text-wrapper {
@@ -11,13 +11,13 @@
   margin-left: 20px;
   color: rgba(255, 255, 255, 0.66);
   min-width: 80%;
-  font-size: min(6vw, 40px);
+  font-size: min(6.25vw, 40px);
   -webkit-text-stroke: 1px black;
 }
 
 .homePageTitleSecondary {
     color: rgba(255, 255, 255, 0.66);
-    font-size: min(4vw, 20px);
+    font-size: min(5.5vw, 20px);
     margin-left: 25px;
     max-width: 80%;
     -webkit-text-stroke: 1px black;
@@ -41,11 +41,11 @@
     }
 }*/
 
-.container {
+.heroContainer {
   align-items: center;
   background-image: url("./assets/images/metav.jpg");
-  -webkit-filter: contrast(200%) grayscale(66%);
-  filter: contrast(200%) grayscale(66%);
+  -webkit-filter: contrast(200%) grayscale(100%);
+  filter: contrast(200%) grayscale(85%);
   object-fit: contain;
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@
   color: white;
   border-radius: 5px;
   width: min(400px, 85%);
-  height: min(30%, 300px); ;
+  height: max(30%, 250px); ;
   overflow: auto;
 }
 
@@ -140,9 +140,9 @@
 }
 
 .registerButton {
-  margin-top: 10px;
-  width: 25%;
-  color: black
+  margin-top: auto;
+  width: 50%;
+  color: black;
 }
 
 .giveAwayLB {
@@ -153,7 +153,7 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  display: none
+  display: none;
 }
 
 .giveAwayLB.active {

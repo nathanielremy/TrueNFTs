@@ -26,4 +26,5 @@ function registerForm(e) {
 
 function registrationFailed() {
   console.log("Email not sent");
+  giveAwayLB.classList.remove('active');
 }

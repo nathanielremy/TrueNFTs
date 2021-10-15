@@ -2,7 +2,7 @@
   "name": "TrueNFTs",
   "version": "1.0.0",
   "description": "Website",
-  "main": "./TrueNFTs/Public/js/contactForm.js",
+  "main": "./TrueNFTs/Public/js/contact.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "type": "module"
