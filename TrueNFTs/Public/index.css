@@ -44,8 +44,8 @@
 .heroContainer {
   align-items: center;
   background-image: url("./assets/images/metav.jpg");
-  -webkit-filter: contrast(200%) grayscale(85%);
-  filter: contrast(200%) grayscale(85%);
+  -webkit-filter: contrast(200%) grayscale(95%);
+  filter: contrast(200%) grayscale(95%);
   object-fit: contain;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,6 +152,40 @@
   cursor: pointer;
   padding: 4px 9px;
   border-radius: 5px;
+}
+
+.registrationFailAlert {
+  background-color: red;
+  border-color: black;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  margin: auto;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0;
+  display: none
+}
+
+.registrationFailAlert.active {
+  display: flex;
+}
+
+.registrationSuccessAlert {
+  background-color: green;
+  border-color: black;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  margin: auto;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0;
+  display: none
+}
+
+.registrationSuccessAlert.active {
+  display: flex;
 }
 
 .giveAwayLB {
