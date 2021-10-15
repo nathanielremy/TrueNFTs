@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
+.pText {
+  line-height: 14px;
+  font-size: min(2.25vw, 10px);
+  color: rgba(52, 52, 52, 1)
+}
+
 .dropHeaderImage-container{
   display: flex;
   justify-content: center;
@@ -16,6 +22,45 @@
     border: 0.5px solid rgba(192, 192, 192, 0.5);
     border-radius: 5px
 }
+
+.dropCardContainer {
+    background-color: #fff;
+    padding: 1rem 3rem;
+    position: relative;
+    width: 80%;
+    height: 115px;
+    overflow: hidden;
+    margin: -5em auto 20px;
+    border: 0.5px solid rgba(192, 192, 192, 0.5);
+    border-radius: 5px
+}
+
+.dropCardContainerTitle {
+  font-size: max(0.75vw, 14px);
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+/* .viewDropButton {
+  margin-top: auto;
+  background-color: white;
+  width: 5%;
+  color: black;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 4px 9px;
+  border-radius: 5px;
+}
+
+.viewDropButton:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white
+} */
 
 @media (max-width:992px) {
     .listedItemContainer {
@@ -57,7 +102,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center
+  text-align: center;
 }
 
 #lightBox img {
@@ -65,5 +110,5 @@
   text-align: center;
   max-width: 80%;
   max-height: 75%;
-  border-radius: 5px
+  border-radius: 5px;
 }
