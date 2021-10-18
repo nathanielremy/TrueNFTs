@@ -21,25 +21,26 @@
   text-align: center;
 }
 
-.gangPlanButton {
+.iconSeperator {
+  font-size: 25px;
+  color: rgba(180, 180, 180, 1);
+}
+
+.SGIcons {
   position: relative;
+  color: rgba(180, 180, 180, 1);
+  height: 20px;
+  width: 20px;
+  z-index: 100;
+}
+
+.SGIcons:hover {
+  text-decoration: none;
   color: black;
-  background-color: white;
-  font-size: 12px;
-  padding: 4px 12px;
-  border-radius: 5px;
-  border: 1px solid black;
-  z-index: 100
+  cursor: pointer;
 }
 
-.gangPlanButton:hover {
-  text-decoration: none !important;
-  color: white;
-  background-color: black;
-}
-
-.gangPlanButton:active {
-  box-shadow: 0 2px #666;
+.SGIcons:active {
   transform: translateY(4px);
 }
 
