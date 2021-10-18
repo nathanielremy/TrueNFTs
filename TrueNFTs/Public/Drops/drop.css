@@ -134,22 +134,10 @@
   text-align: center;
 }
 
-.gangPlanContainer {
-  background-color: rgba(26, 26, 26, 1);
-  height: 75%;
-  width: 66%;
+.gangPlanIMG {
   border-radius: 5px;
-  overflow: auto;
-}
-
-.gangPlanList {
-  padding-left: min(150px, 20vw);
-  padding-right: min(75px, 10vw);
-  padding-top: min(50px, 7vw);
-  color: white;
-  text-align: left;
-  font-size: 20px;
-  overflow: auto;
+  max-height: 80%;
+  max-width: 90%;
 }
 
 .lightBoxItem {
