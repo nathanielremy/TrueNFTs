@@ -43,9 +43,9 @@
 
 .heroContainer {
   align-items: center;
-  background-image: url("./assets/images/metav.jpg");
-  -webkit-filter: contrast(200%) grayscale(95%);
-  filter: contrast(200%) grayscale(95%);
+  background-image: url("./assets/images/metav1.jpg");
+  -webkit-filter: contrast(200%) grayscale(75%);
+  filter: contrast(200%) grayscale(75%);
   object-fit: contain;
   background-size: cover;
   background-repeat: no-repeat;
