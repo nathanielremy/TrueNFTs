@@ -1,20 +1,116 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-.dropHeaderImage-container{
+.dropsBody {
+  background-color: black;
+}
+
+.pageTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 28px);
+  text-align: center;
+  margin-top: 18%;
+  margin-bottom: 7.5%;
+}
+
+.dropContainer {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  border: 1.5px solid grey;
+  margin-bottom: 25px;
+}
+
+.dropContainer:hover {
+  border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
+}
+
+.dropImage {
   display: flex;
-  justify-content: center;
-  border-radius: 3px
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.dropInfoContainer {
+    background-color: rgba(26, 26, 26, 1);
+    padding: 8px 4px;
+    position: relative;
+    width: 70%;
+    height: 115px;
+    overflow: hidden;
+    margin: -2.5em auto 20px;
+    border: 0.5px solid rgba(192, 192, 192, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropInfoTitle {
+  color: white;
+  text-align: center;
+  font-size: max(0.75vw, 14px);
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.dropImageTitle {
+  text-align: left;
+  width: 80%;
+  color: #6d6d64;
+  font-size: min(3.5vw, 18px);
 }
 
 .pText {
   text-align: center;
   line-height: 14px;
   font-size: min(2.6vw, 10px);
-  color: rgba(52, 52, 52, 1);
+  color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   text-overflow: ellipsis;
   padding-bottom: 0px;
+}
+
+.fttr {
+  margin-top: 5%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+.dropHeaderImage-container{
+  display: flex;
+  justify-content: center;
+  border-radius: 3px
 }
 
 .gangPlanButtonContainer {
