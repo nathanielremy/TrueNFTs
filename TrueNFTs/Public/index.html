@@ -68,32 +68,52 @@
     </video>
   </div>
 
-    <a href="" class="sectionSeperatorButton">
-      <div class="sectionSeperator">
-        CLICK HERE TO WIN 1 OF 5 PAUL CHENARD NFTS DD.MM.YY
-      </div>
-    </a>
+  <a href="" class="sectionSeperatorButton">
+    <div class="sectionSeperator">
+      CLICK HERE TO WIN 1 OF 5 PAUL CHENARD NFTS DD.MM.YY
+    </div>
+  </a>
 
-  <div class="dropIntroduction">
+  <div class="dropIntroductionContainer">
     <div class="row">
-      <div class="col-md-6 col-md-offset-1">
+      <div class="col-md-6 col-md-offset-1 col-sm-6">
         <div class="dropIntroductionCopy">
           <h1 class="dropIntroductionTitle">THE WORLD'S MOST PUBLISHED AUTOMOTIVE ARTIST & HALL OF FAME INDUCTEE</h1>
           <p class="dropIntroductionSubTitle">All NFTs 1 of 1 + physical copy</p>
           <div class="dropIntroductionCTAs">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
               <button type="submit" class="dropButton">Register</button>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
               <button type="submit" class="dropButton">View upcoming art</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-md-offset-0">
-        <div class="dropIntroductionImageContainer">
-          <img class="dropIntroductionImage" src="./assets/images/PCDropItems/PenskeSunocoPorsche917-30.jpg" alt="">
-          <h2 class="dropImagesTitle">Penske Sunoco Porsche 917/30 - (1973)</h2>
+      <div class="col-md-4 col-md-offset-0 col-sm-6">
+        <div class="dropIntroductionCarouselContainer">
+          <div class="dropIntroductionCarouselItem">
+            <img class="dropIntroductionImage" src="./assets/images/PCDropItems/PenskeSunocoPorsche917-30.jpg" alt="">
+            <h2 class="dropImagesTitle">Penske Sunoco Porsche 917/30 - (1973)</h2>
+          </div>
+          <div class="dropIntroductionCarouselItem">
+            <img class="dropIntroductionImage" src="./assets/images/PCDropItems/Red-LanciaFerrariD50.jpg" alt="">
+            <h2 class="dropImagesTitle">Red Lancia Ferrari D50</h2>
+          </div>
+          <div class="dropIntroductionCarouselItem">
+            <img class="dropIntroductionImage" src="./assets/images/PCDropItems/GreenJaguarETypeLightweight.jpg" alt="">
+            <h2 class="dropImagesTitle">Green Jaguar E-Type Lightweight</h2>
+          </div>
+          <div class="dropIntroductionCarouselItem">
+            <img class="dropIntroductionImage" src="./assets/images/PCDropItems/YellowFerrari512S.jpg" alt="">
+            <h2 class="dropImagesTitle">Ferrari 512 S - 1000 kms de Spa - (1970)</h2>
+          </div>
+        </div>
+        <div class="carouselNavButtons">
+          <button class="carouselNavBTN" id="b1"></button>
+          <button class="carouselNavBTN" id="b2"></button>
+          <button class="carouselNavBTN" id="b3"></button>
+          <button class="carouselNavBTN" id="b4"></button>
         </div>
       </div>
     </div>
@@ -130,7 +150,8 @@
      movingBackgroundImage();
   });
 </script>
+<script defer type="text/javascript" src="./js/carousel.js"></script>
 <script defer type="module" src="./js/index.js"></script>
-<script type="text/javascript" src="./main.js"></script></body>
-
+<script type="text/javascript" src="./main.js"></script>
+</body>
 </html>

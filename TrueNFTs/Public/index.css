@@ -51,7 +51,7 @@
   overflow: hidden;
 }
 
-.dropIntroduction {
+.dropIntroductionContainer {
   margin-top: 91px; /*Height of sectionSeperator + 16px*/
   text-align: center;
   width: 95%;
@@ -64,7 +64,7 @@
 
 .dropIntroductionTitle {
   text-align: left;
-  margin-top: 7vw;
+  margin-top: 8vw;
   margin-left: 25px;
   color: rgba(255, 255, 255, 0.8);
   font-size: min(4.5vw, 30px);
@@ -72,32 +72,11 @@
 
 .dropIntroductionSubTitle {
   text-align: left;
+  margin-top: -18px;
   margin-left: 25px;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(79, 217, 139, 1);
-}
-
-.dropIntroductionImageContainer {
-  text-align: center;
-  display: inline-block;
-  margin-top: 5%;
-  margin-left: 5vw;
-  border-radius: 5px;
-  border: 1.5px solid;
-  border-image: linear-gradient(to right, yellow 50%, teal 50%) 2;
-}
-
-.dropIntroductionImage {
-  border-radius: 5px;
-  margin-top: 15%;
-  width: 70%;
-}
-
-.dropImagesTitle {
-  text-align: left;
-  color: rgba(52, 52, 52, 1);
-  font-size: min(1.5vw, 20px);
+  color: #FFFF00;
 }
 
 .dropIntroductionCTAs {
@@ -125,11 +104,97 @@
   transform: translateY(4px);
 }
 
-@media(max-width: 988px) {
+.dropIntroductionCarouselContainer {
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5vw;
+  border: 1.5px solid;
+  border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
+}
+
+.dropIntroductionCarouselItem {
+  min-width: 100%;
+  transform: translateX(0%);
+  transition: transform 0.5s;
+}
+
+.dropIntroductionImage {
+  display: flex;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.dropImagesTitle {
+  text-align: left;
+  width: 80%;
+  color: #6d6d64;
+  font-size: min(3.5vw, 18px);
+}
+
+.carouselNavButtons {
+  margin-top: 8px;
+  margin-left: 5vw;
+  text-align: center;
+}
+
+.carouselNavBTN {
+  height: 12px;
+  width: 12px;
+  border: 0px solid transparent;
+  border-radius: 50%;
+  margin: 0 4px;
+  background-color: white;
+  opacity: 0.33;
+}
+
+.carouselNavButtons #b1 {
+  background-image: linear-gradient(to right, #FFFF00 50%, #008080 50%);
+  opacity: 0.6;
+}
+
+/*.dropIntroductionCarouselContainer {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5vw;
+  border-radius: 5px;
+  border: 1.5px solid;
+  border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
+}
+
+.carouselTrack {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.carouselSlide {
+  display: none;
+}
+
+.carouselSlide:active {
+  display: inline-block;
+}
+
+
+.dropIntroductionImage {
+  border-radius: 5px;
+  margin-top: 15%;
+  width: 70%;
+}*/
+
+@media(max-width: 768px) {
   .dropIntroductionTitle {
     margin-top: 2vw;
   }
-  .dropIntroductionImageContainer {
+  .dropIntroductionCarouselContainer {
     margin-top: 0%;
   }
 }
