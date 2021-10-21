@@ -1,10 +1,3 @@
-// const carouselTrack = document.querySelector('.carouselTrack');
-// const slides = Array.from(carouselTrack.children);
-// const carouselNav = document.querySelector('.carouselNavButtons');
-// const navButtons = Array.from(carouselNav.children);
-//
-// const firstSlide = slides[0];
-// console.log(firstSlide.classList.add('active'));
 const navButtons = document.getElementsByClassName('carouselNavBTN');
 const carouselItem = document.getElementsByClassName('dropIntroductionCarouselItem');
 
