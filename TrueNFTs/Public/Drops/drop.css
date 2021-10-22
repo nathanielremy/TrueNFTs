@@ -3,6 +3,7 @@
 
 .dropsBody {
   background-color: black;
+  object-fit: center;
 }
 
 .pageTitle {
@@ -66,7 +67,7 @@
   text-align: center;
   line-height: 14px;
   font-size: min(2.6vw, 10px);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
   overflow: hidden;
   text-overflow: ellipsis;
   padding-bottom: 0px;
@@ -77,9 +78,38 @@
   color: white;
 }
 
+/////// BELOW IS FULL DROP ///////
 
 
+.headerImageContainer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
+.dropHeaderImage {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 7%;
+}
+
+.dropTitle {
+  color: white;
+  text-align: center;
+  font-size: min(4.75vw, 28px);
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.dropSubTitle {
+  text-align: center;
+  line-height: 14px;
+  font-size: min(2.75vw, 14px);
+  color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0px;
+}
 
 
 

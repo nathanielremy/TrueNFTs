@@ -158,38 +158,6 @@
   opacity: 0.6;
 }
 
-/*.dropIntroductionCarouselContainer {
-  position: relative;
-  text-align: center;
-  display: inline-block;
-  margin-top: 5%;
-  margin-left: 5vw;
-  border-radius: 5px;
-  border: 1.5px solid;
-  border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
-}
-
-.carouselTrack {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.carouselSlide {
-  display: none;
-}
-
-.carouselSlide:active {
-  display: inline-block;
-}
-
-
-.dropIntroductionImage {
-  border-radius: 5px;
-  margin-top: 15%;
-  width: 70%;
-}*/
-
 @media(max-width: 768px) {
   .dropIntroductionTitle {
     margin-top: 2vw;

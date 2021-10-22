@@ -4309,7 +4309,7 @@ tbody.collapse.in {
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: transparent;
     border-color: transparent
 }
 
@@ -4328,13 +4328,23 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #000
+    color: #333
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #333;
+    color: #000;
+    font-size: 16px;
     background-color: transparent
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav>li>a {
+      color: rgba(255, 255, 255, 0.66);
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+      color: rgba(255, 255, 255, 1);
+  }
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -4347,7 +4357,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav>.disabled>a,
 .navbar-default .navbar-nav>.disabled>a:focus,
 .navbar-default .navbar-nav>.disabled>a:hover {
-    color: #ccc;
+    color: #fff;
     background-color: transparent
 }
 
@@ -4361,7 +4371,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #888
+    background-color: #fff
 }
 
 .navbar-default .navbar-collapse,
@@ -4440,7 +4450,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-text {
-    color: #9d9d9d
+    color: rgba(255, 255, 255, 0.66);
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -4448,14 +4458,15 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
     background-color: transparent
 }
 
 .navbar-inverse .navbar-nav>.disabled>a,
 .navbar-inverse .navbar-nav>.disabled>a:focus,
 .navbar-inverse .navbar-nav>.disabled>a:hover {
-    color: #444;
+    color: #333;
     background-color: transparent
 }
 
@@ -5837,7 +5848,7 @@ textarea {
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #fff
+    background-color: #000
 }
 
 @media (max-width:768px) {
@@ -5851,7 +5862,7 @@ textarea {
         background-color: transparent
     }
     .navbar-default .navbar-collapse {
-        background-color: #fff
+        background-color: #000
     }
 }
 
