@@ -2082,9 +2082,9 @@ output {
     width: 100%;
     height: 40px;
     padding: 8px 14px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     background-image: none;
-    border: 1px solid #000;
+    border: 1px solid rgba(255, 255, 255, 0.66);
     border-radius: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -5623,16 +5623,6 @@ blockquote small {
     font-size: 50%
 }
 
-.fa-icon {
-    color: #000;
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    line-height: 32px;
-    font-size: 15px;
-    text-align: center
-}
-
 .form-control {
     box-shadow: none
 }
@@ -5919,10 +5909,5 @@ textarea {
     float: left;
     margin-right: 5px
 }
-
-.contactli {
-    padding-left: 20px
-}
-
 
 /*# sourceMappingURL=main.70a66962.map*/

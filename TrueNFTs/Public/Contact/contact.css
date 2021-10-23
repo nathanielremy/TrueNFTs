@@ -1,3 +1,68 @@
+.contactBody {
+  background-color: black;
+  object-fit: center;
+}
+
+.pageTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 28px);
+  text-align: center;
+  margin-top: 12%;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    margin-top: 18%;
+  }
+}
+
+.sectionTitle {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 20px);
+  text-align: left;
+}
+
+.sectionText {
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.contactForm {
+  margin-top: 2.5%;
+}
+
+.contactDetailsContainer {
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 600;
+}
+
+.sendButton {
+  width: 75px;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+}
+
+.sendButton:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.sendButton:active {
+  transform: translateY(4px);
+}
+
+.captchaLabel {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
 .alertContainer {
   position: relative;
 }
@@ -11,8 +76,9 @@
   background-color: red;
   border-color: red;
   color: #fff;
+  font-weight: 600;
   padding: 15px;
-  margin-bottom: 19px;
+  margin-bottom: 14px;
   border: 1px solid transparent;
   border-radius: 0;
   display: none;
@@ -26,11 +92,12 @@
 }
 
 .emailSuccessAlert {
-  background-color: black;
+  background-color: green;
   border-color: black;
   color: #fff;
+  font-weight: 600;
   padding: 15px;
-  margin-bottom: 19px;
+  margin-bottom: 14px;
   border: 1px solid transparent;
   border-radius: 0;
   display: none
@@ -41,4 +108,23 @@
   .sendContainer {
     margin-top: -50px;
   }
+}
+
+.fa-icon, .iconify {
+  color: rgba(255, 255, 255, 0.66);
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.iconify:hover {
+  color: #008080;
+}
+
+.fttr {
+  padding-top: 5%;
+  color: white;
 }

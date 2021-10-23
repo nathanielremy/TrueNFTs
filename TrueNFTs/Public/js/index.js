@@ -51,8 +51,8 @@ function registrationSucceeded() {
       // Display a login box
       clearInterval(interval);
       registrationSuccessAlert.classList.remove('active');
-      registerButton.hidden = false;
       giveAwayLB.classList.remove('active');
+      registerButton.hidden = false;
     }
   }, 1000);
 }
