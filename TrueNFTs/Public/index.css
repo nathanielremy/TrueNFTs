@@ -132,7 +132,7 @@
 .dropIntroductionCarouselImageTitle {
   text-align: left;
   padding-left: 10%;
-  color: #6d6d64;
+  color: rgba(255, 255, 255, 0.8);
   font-size: min(3.5vw, 18px);
 }
 
