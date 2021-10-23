@@ -10,8 +10,14 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: min(3vw, 28px);
   text-align: center;
-  margin-top: 18%;
+  margin-top: 12%;
   margin-bottom: 7.5%;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    margin-top: 18%;
+  }
 }
 
 .dropContainer {
@@ -151,7 +157,7 @@
 
 .SGIcons:hover {
   text-decoration: none;
-  color: #FFFF00;
+  color: #008080;
   cursor: pointer;
 }
 

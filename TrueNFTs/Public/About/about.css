@@ -1,0 +1,43 @@
+.aboutBody {
+  background-color: black;
+  object-fit: center;
+}
+
+.pageTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 28px);
+  text-align: center;
+  margin-top: 12%;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    margin-top: 18%;
+  }
+}
+
+.sectionTitle {
+  margin-top: 7.5%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 20px);
+  text-align: left;
+}
+
+.sectionText {
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 600;
+  text-align: left;
+}
+
+.iconify {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.iconify:hover {
+  color: #008080;
+}
+
+.fttr {
+  padding-top: 5%;
+  color: white;
+}
