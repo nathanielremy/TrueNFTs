@@ -128,7 +128,7 @@
 .dropSubSubTitle {
   text-align: center;
   font-weight: 200;
-  color: #FFFF00;
+  color: rgba(255, 255, 255, 0.6);
   font-size: min(2.25vw, 14px)
 }
 
@@ -191,7 +191,7 @@
 .listedDropItemPrice {
   text-align: left;
   margin-top: -15px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.66);
   font-weight: 800;
 }
 
