@@ -191,7 +191,7 @@
 
 .listedDropItemTitle {
   text-align: left;
-  margin-top: -15px;
+  margin-top: -12px;
   color: rgba(255, 255, 255, 0.8);
   font-size: min(3.5vw, 18px)
 }
