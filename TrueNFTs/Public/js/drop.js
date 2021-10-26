@@ -25,6 +25,22 @@ lightBox.addEventListener('click', e => {
   lightBox.classList.remove('active');
 });
 
+//Toggle dropOptionsContainer
+const toggleButton = document.querySelector('.toggleButton');
+const dropSubTitle = document.querySelector('.dropSubTitle');
+const toggleButtonText = document.querySelector('.toggleButtonText');
+toggleButton.addEventListener('click', e => {
+  if (toggleButton.id === '0') {
+    dropSubTitle.style.maxHeight = 'none';
+    toggleButton.id = '1';
+    toggleButtonText.innerHTML= "LESS";
+  } else {
+    dropSubTitle.style.maxHeight = '44px';
+    toggleButton.id = '0';
+    toggleButtonText.innerHTML = "MORE";
+  }
+});
+
 //Show Suicide Gang roadmap when button clicked
 const gangPlanLB = document.querySelector('.gangPlanLB');
 gangPlanLB.addEventListener('click', e => {

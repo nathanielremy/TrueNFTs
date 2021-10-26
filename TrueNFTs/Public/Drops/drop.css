@@ -123,6 +123,7 @@
 
 .dropSubTitle {
   text-align: center;
+  max-height: 48px;
   line-height: 14px;
   font-size: min(2.75vw, 14px);
   color: rgba(255, 255, 255, 0.66);
@@ -138,8 +139,26 @@
   font-size: min(2.25vw, 14px)
 }
 
-.gangPlanButtonContainer {
+.dropOptionsContainer {
+  width: 100%;
+  margin-top: min(-1.5vw, -20px);
   text-align: center;
+}
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  margin-top: 1vw;
+}
+
+.toggleButton:hover  {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.toggleButtonText {
+  color: rgba(0, 0, 0, 0.66);
+  font-weight: 600;
 }
 
 .gangPlanButton:hover {
