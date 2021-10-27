@@ -33,11 +33,11 @@ toggleButton.addEventListener('click', e => {
   if (toggleButton.id === '0') {
     dropSubTitle.style.maxHeight = 'none';
     toggleButton.id = '1';
-    toggleButtonText.innerHTML= "LESS";
+    toggleButtonText.innerHTML= "Less";
   } else {
     dropSubTitle.style.maxHeight = '44px';
     toggleButton.id = '0';
-    toggleButtonText.innerHTML = "MORE";
+    toggleButtonText.innerHTML = "More";
   }
 });
 
