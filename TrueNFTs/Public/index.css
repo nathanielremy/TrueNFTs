@@ -31,16 +31,17 @@
   position: absolute;
   width: 100%;
   font-size: min(4vw, 30px);
+  font-weight: 600;
 }
 
 .sectionSeperator {
   cursor: pointer;
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   background-color: black;
   /* height: 75px; */
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
+  border-top:4px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.8);
   width: 100%;
   padding-top: min(2vw, 14px);
   padding-bottom: min(2vw, 14px);
@@ -74,8 +75,9 @@
   margin-left: 25px;
   font-size: min(2.5vw, 14px);
   line-height: 1.25;
-  font-weight: 400;
+  font-weight: 600;
   color: #FFFF00;
+  opacity: 0.8;
 }
 
 .dropIntroductionCTAs {
@@ -153,8 +155,8 @@
 }
 
 .carouselNavButtons #b1 {
-  background-image: linear-gradient(to right, #FFFF00 50%, #008080 50%);
-  opacity: 0.6;
+  background-color: #FFFF00;
+  opacity: 0.66
 }
 
 @media(max-width: 768px) {
@@ -163,10 +165,6 @@
   }
   .dropIntroductionCarouselContainer {
     margin-top: 0%;
-  }
-  .carouselNavBTN {
-    height: 20px;
-    width: 20px;
   }
 }
 

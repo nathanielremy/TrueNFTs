@@ -53,8 +53,13 @@ function setNewImage(position, index) {
   navButtons[3].style.backgroundColor = 'white';
   navButtons[3].style.opacity = '0.33';
 
-  navButtons[index - 1].style.backgroundImage = 'linear-gradient(to right, #FFFF00 50%, #008080 50%)';
-  navButtons[index - 1].style.opacity = '0.6';
+  if ((index - 1) < 2) {
+    navButtons[index - 1].style.backgroundColor = '#FFFF00';
+  } else {
+    navButtons[index - 1].style.backgroundColor = '#008080';
+  }
+
+  navButtons[index - 1].style.opacity = '0.66';
 
   carouselItem[0].style.transform = 'translateX('+position+'%)';
   carouselItem[1].style.transform = 'translateX('+position+'%)';
