@@ -29,6 +29,70 @@
   text-align: left;
 }
 
+.teamTitle {
+  margin-top: 7.5%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 20px);
+}
+
+.teamMemberContainer {
+  text-align: center;
+  align-items: center;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 25px;
+  border: 1.5px solid black;
+  /* background-color: rgba(26, 26, 26, 1); */
+}
+
+.teamMemberContainer:hover {
+  border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
+}
+
+.teamMemberImage {
+  margin-top: 5%;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.teamMemberDetails {
+  margin-left: 10%
+}
+
+.teamMemberName {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: min(3vw, 12px)
+  font-weight: 600;
+}
+
+.teamMemberRole {
+  margin-top: -14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: min(2.5vw, 12px);
+  font-weight: 600;
+}
+
+.infoButton {
+  margin-left: 10%;
+  margin-top: -15px;
+  text-align: left;
+  color: red;
+}
+
+.infoButton:hover {
+  cursor: pointer;
+}
+
+.infoButtonTitle {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 400;
+}
+
 .iconify {
   color: rgba(255, 255, 255, 0.8);
 }
