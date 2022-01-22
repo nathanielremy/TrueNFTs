@@ -39,13 +39,19 @@
 .teamMemberContainer {
   text-align: center;
   align-items: center;
+  position: relative;
   width: 75%;
   margin-left: 12.5%;
   margin-top: 25px;
   border: 1.5px solid black;
+  overflow: hidden;
+  overflow-y: scroll;
   /* background-color: rgba(26, 26, 26, 1); */
 }
 
+.teamMemberContainer::-webkit-scrollbar {
+  display: none;
+}
 .teamMemberContainer:hover {
   border-image: linear-gradient(to right, #FFFF00 50%, #008080 50%) 2;
 }
@@ -58,7 +64,7 @@
 }
 
 .teamMemberDetails {
-  margin-left: 10%
+  margin-left: 10%;
 }
 
 .teamMemberName {
@@ -91,6 +97,28 @@
   text-align: left;
   color: rgba(255, 255, 255, 0.66);
   font-weight: 400;
+}
+
+#teamMemberBioContainer {
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  background: black;
+  display: none;
+}
+
+#teamMemberBioContainer.active {
+  display: flex;
+}
+
+#teamMemberBio {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: min(2.6vw, 12px);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.66);
 }
 
 .iconify {
