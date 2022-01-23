@@ -40,8 +40,8 @@
   text-align: center;
   align-items: center;
   position: relative;
-  width: 75%;
-  margin-left: 12.5%;
+  width: 100%;
+  /* margin-left: 12.5%; */
   margin-top: 25px;
   border: 1.5px solid black;
   overflow: hidden;
@@ -70,12 +70,14 @@
 .teamMemberName {
   text-align: left;
   color: rgba(255, 255, 255, 0.8);
-  font-size: min(3vw, 12px)
+  font-size: min(3vw, 14px);
+  margin-right: 8%;
   font-weight: 600;
 }
 
 .teamMemberRole {
   margin-top: -14px;
+  margin-right: 8%;
   text-align: left;
   color: rgba(255, 255, 255, 0.66);
   font-size: min(2.5vw, 12px);
@@ -112,6 +114,7 @@
 }
 
 #teamMemberBio {
+  margin-top: 8px;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
