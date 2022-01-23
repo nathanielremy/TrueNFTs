@@ -59,7 +59,7 @@ function setNewImage(position, index) {
     navButtons[index - 1].style.backgroundColor = '#008080';
   }
 
-  navButtons[index - 1].style.opacity = '0.66';
+  navButtons[index - 1].style.opacity = '1';
 
   carouselItem[0].style.transform = 'translateX('+position+'%)';
   carouselItem[1].style.transform = 'translateX('+position+'%)';

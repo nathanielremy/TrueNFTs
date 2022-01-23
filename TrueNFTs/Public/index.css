@@ -145,18 +145,21 @@
 }
 
 .carouselNavBTN {
-  height: 14px;
-  width: 14px;
+  height: 18px;
+  width: 18px;
   border: 0px solid transparent;
   border-radius: 50%;
   margin: 0 4px;
-  background-color: white;
   opacity: 0.33;
+}
+
+.carouselNavBTN:hover {
+  cursor: pointer;
 }
 
 .carouselNavButtons #b1 {
   background-color: #FFFF00;
-  opacity: 0.66
+  opacity: 1;
 }
 
 @media(max-width: 768px) {
